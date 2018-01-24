@@ -22,7 +22,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency in app/build.gradle
 
 	dependencies {
-	        compile 'com.github.hosamazzam:SupportScreenSize:v1.0.3'
+	        compile 'com.github.hosamazzam:SupportScreenSize:v1.0.5'
 	}
 
 ## Built With
@@ -44,3 +44,5 @@ new SupportScreenSize(this).getHeightIndp() : return device Height in dp
 new SupportScreenSize(this).getHeigh() : return device Height in pixels
 ```
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](License.md) file for details
